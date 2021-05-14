@@ -1,6 +1,7 @@
 {
-  "ext": "js",
-  "watchOptions": {
-    "followSymlinks": false
-  }
+  "watch": ["src"],
+  "ext": "ts",
+  "delay": "2500ms",
+  "ignore": ["src/public", "test/*"],
+  "exec": "babel-node ./index.js"
 }
